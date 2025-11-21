@@ -13,7 +13,7 @@ public class Primes {
         }
 
         int counter = 0;
-        System.err.println("Prime numbers up to " + range + ":");
+        System.out.println("Prime numbers up to " + range + ":");
         for (int i = 2; i < nums.length; i++) { // Primes > 2
             if (nums[i] != -1) {
                 System.out.println(i);
